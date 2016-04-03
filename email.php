@@ -1,6 +1,10 @@
 <?php
 
-//邮箱
+/**
+ * @author Luo Ning <luoning@luoning.me>
+ * 正则表达式练习之Email
+ *
+ */
 $pattern = '/\w+@([a-zA-Z0-9-]+.){1,2}(com|cn|org|gov.cn|net|edu.cn|me|club)/';
 
 
