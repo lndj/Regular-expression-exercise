@@ -1,5 +1,10 @@
 <?php
 
+/**
+ * @author Luo Ning <luoning@luoning.me>
+ * 正则表达式练习之Url --Maybe not complete
+ *
+ */
 
 $pattern = '/^((http|https):\/\/)?([a-zA-Z-]+\d*.){1,3}[a-zA-Z]+\b/';
 
