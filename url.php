@@ -6,7 +6,7 @@
  *
  */
 
-$pattern = '/^((http|https):\/\/)?([a-zA-Z-]+\d*.){1,3}[a-zA-Z]+\b/i';
+$pattern = '/((http|https):\/\/)?([a-zA-Z-]+\d*.){1,3}[a-zA-Z]+\b/i';
 
 $string = 'https://www.luoning.me   luoning.com';
 
