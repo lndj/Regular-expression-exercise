@@ -8,7 +8,7 @@
 
 $pattern = '/((http|https):\/\/)?([a-zA-Z-]+\d*.){1,3}[a-zA-Z]+\b/i';
 
-$string = 'https://www.luoning.me   luoning.com';
+$string = 'https://www.luoning.me   luoning.com   luoning.me/index.html';
 
 if (preg_match_all($pattern, $string, $match)) {
 	 echo 'The result is : '; 
